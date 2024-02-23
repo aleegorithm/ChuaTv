@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!-- Background -->
+    <img class=" absolute w-full h-[86vh] object-cover" src="/src/assets/Bg.jpg" alt="">
+    <div class="overlay absolute w-full h-[86vh] z-10 bg-[rgba(0,0,0,.5)]"></div>
+    <div class="container z-20 relative">
+        <!-- Navbar -->
+    <div class="navBar relative flex  items-center pl-[70px] pt-9">
+        <div class="logo pr-10"><img src="/src/assets/Logo.png" alt=""></div>
+            <ul class="navList text-white inline-flex gap-x-10 text-[19px]">
+                <li><a class="font-semibold" href="#"><i class="fa-solid fa-house pr-1"></i>Home</a></li>
+                <li><a class="font-semibold" href="#"><i class="fa-solid fa-masks-theater pr-1"></i>K-drama</a></li>
+                <li><a class="font-semibold" href="#"><i class="fa-solid fa-film pr-1"></i>Genre</a></li>
+            </ul>
+    </div>
+    <!-- Heading -->
+    <div class="heading relative w-[55vw] pl-[70px] pb-10 pt-[50px]">
+        <div class="headingOne"><h1 class="text-white text-[4vh] font-semibold">Welcome to ChuaTv</h1></div>
+        <div class="headingTwo"><h1 class="text-white text-[9vh] font-semibold">Discover and Search the most Popular K-drama</h1></div>
+        <div class="headingThree"><h1 class="text-white text-[2vh] font-semibold">Enjoy the most  popular K-drama only on  ChuaTv.</h1></div>
+    </div>
+    <!-- Search -->
+    <div class="search relative w-[40vw] inline-flex pl-[70px]">
+        <input class="searchInput w-[20vw] h-[6vh] rounded-sm pl-5" type="text" placeholder="Search K-drama">
+        <button class="searchButton w-[5vw] h-[6vh] bg-[#F41B3B] rounded-sm text-white">Search</button>
+    </div>
+    </div>
+    
+
+    <!-- Popular K-drama -->
+    <div class="popularKdrama"></div>
+</body>
+</html>
